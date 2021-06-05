@@ -1,0 +1,28 @@
+{
+  "name": "artwork_info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"tsc"
+  },
+  "keywords": [
+    "pixiv",
+    "artwork"
+  ],
+  "author": {
+    "name": "KotoriK",
+    "url": "https://www.github.com/KotoriK/"
+  },
+  "repository": {
+    "url": "https://www.github.com/KotoriK/artwork_info"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.9",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.10"
+  }
+}
